@@ -1,0 +1,32 @@
+label {
+    display: block;
+    margin: .8em 0;
+}
+
+label input[type=text],
+label input[type=email],
+label input[type=number],
+label input[type=password],
+label textarea {
+    width: calc(100% - 1.2em);
+    margin-top: .2em;
+    padding: .4em .6em;
+    font-family: serif;
+    color: var(--primary-text-color);
+    font-size: 1.1em;
+    border: 1px solid rgba(0,0,0,0.15);
+    border-bottom-width: .1em;
+    border-radius: .3em;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+    outline: none;
+    transition: 250ms;
+}
+
+label input[type=text]:focus,
+label input[type=email]:focus,
+label input[type=number]:focus,
+label input[type=password]:focus,
+label textarea:focus {
+    border-bottom-color: var(--primary-theme-color);
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+}

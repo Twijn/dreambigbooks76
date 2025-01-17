@@ -1,0 +1,16 @@
+{
+  "books": [
+    {
+      "title": "A Conversation Between Horses",
+      "image_url": "/images/book/a-conversation-with-horses-1-256x256.webp",
+      "purchase_urls": [
+        {
+          "name": "Purchase from Our Website",
+          "url": "https://store.dreambigbooks76.com/products/a-conversation-between-horses"
+        }
+      ],
+      "description": "George Washington's retired horses talk about their memories of seeing our new country and their beloved master. Nelson and Blueskin had different jobs, but they both did their part to help George Washington become the father of our country.",
+      "footer": "Written by Mariann Mannion • Illustrated by Diana James • Watercolors by Peggy Sanor"
+    }
+  ]
+}

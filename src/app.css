@@ -1,0 +1,144 @@
+@font-face {
+    font-family: "IFDW Italic";
+    src: url("/fonts/IFDW_Italic.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "IFDW Regular";
+    src: url("/fonts/IFDW_Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "IFDW Uppercase";
+    src: url("/fonts/IFDW_Uppercase.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Libre Baskerville";
+    src: url("/fonts/LibreBaskerville_Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Libre Baskerville";
+    font-weight: bold;
+    src: url("/fonts/LibreBaskerville_Bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Libre Baskerville";
+    font-style: italic;
+    src: url("/fonts/LibreBaskerville_Italic.ttf") format("truetype");
+}
+
+:root {
+    --primary-background-color: #fbfbfb;
+    --secondary-background-color: #f1f1f1;
+
+    --primary-text-color: #1c1c1c;
+    --secondary-text-color: #303030;
+
+    --primary-theme-color: #233b76;
+    --secondary-theme-color: #2b4688;
+
+    --primary-contrast-color: #ec4444;
+
+    --theme-contrast: #ffffff;
+}
+
+html, body, .app {
+    height: 100%;
+}
+
+body {
+    font-family: "Libre Baskerville", serif;
+    font-size: 1em;
+    color: var(--primary-text-color);
+    background-image: url("/images/background.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "IFDW Uppercase", sans-serif;
+    margin: 0 0 .25em 0;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 2.6em;
+}
+
+h3 {
+    font-size: 2.2em;
+}
+
+h4 {
+    font-size: 1.7em;
+}
+
+@media only screen and (max-width: 800px) {
+    h1, h2, h3, h4, h5, h6 {
+        text-align: center;
+    }
+}
+
+section {
+    padding: 2em 1em;
+}
+
+section.bg {
+    background-color: var(--primary-background-color);
+    border-top: .2em solid var(--primary-contrast-color);
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.25);
+}
+
+section:last-child:is(.bg) {
+    margin-bottom: 3em;
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 60em;
+    margin: 1em auto;
+}
+
+a {
+    color: var(--primary-text-color);
+}
+
+p {
+    margin: .6em 0;
+}
+
+.grecaptcha-badge {
+    opacity: 0 !important;
+}
+
+.glass-bg {
+    position: relative;
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+    padding: .4em .6em;
+    border-radius: .3em;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+    overflow: hidden;
+}
+
+.glass-bg::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    opacity: .8;
+    z-index: -1;
+}
