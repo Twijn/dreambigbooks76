@@ -68,7 +68,7 @@
 		<p>
 			<a href="/">Dream Big Books 76</a>
 		</p>
-		<p>
+		<nav>
 			<a href="/books">Our Books</a>
 			&bullet;
 			<a href="/meet-the-creators">Meet the Creators</a>
@@ -76,7 +76,7 @@
 			<a href="/contact">Contact</a>
 			&bullet;
 			<a href="https://store.dreambigbooks76.com" target="_blank">Our Store</a>
-		</p>
+		</nav>
 	</footer>
 </div>
 
