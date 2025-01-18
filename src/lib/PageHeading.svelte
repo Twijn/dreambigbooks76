@@ -10,23 +10,22 @@
 
 <style>
     section.heading-sm {
-        padding: 1em 0;
+        padding: 1em;
     }
 
     section.heading-lg {
-        padding: 5em 0;
+        padding: 5em 1em;
     }
 
 		img {
 				display: block;
-				width: 100%;
+        width: 100%;
 				max-width: 420px;
 				margin: 0 auto;
 				border-radius: .15em;
 		}
 
 		section.heading-sm img {
-				width: calc(100% - 1em);
 				max-width: 360px;
 		}
 </style>
