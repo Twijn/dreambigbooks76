@@ -8,6 +8,7 @@
 
 <svelte:head>
 	<title>{book.title} | Dream Big Books 76</title>
+	<meta name="description" content={book.description} />
 </svelte:head>
 
 <PageHeading />

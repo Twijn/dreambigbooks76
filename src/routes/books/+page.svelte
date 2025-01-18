@@ -6,6 +6,7 @@
 
 <svelte:head>
 	<title>Our Books | Dream Big Books 76</title>
+	<meta name="description" content="View all books published from Dream Big Books 76." />
 </svelte:head>
 
 <PageHeading size="sm" />

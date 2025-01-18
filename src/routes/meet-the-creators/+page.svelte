@@ -7,6 +7,7 @@
 
 <svelte:head>
 	<title>Meet the Creators | Dream Big Books 76</title>
+	<meta name="description" content="Meet the creators of Dream Big Books 76, an independent writing group that publishes historical books for children." />
 </svelte:head>
 
 <PageHeading size="sm" />

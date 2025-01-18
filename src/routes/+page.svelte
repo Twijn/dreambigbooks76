@@ -7,6 +7,7 @@
 
 <svelte:head>
 	<title>Home | Dream Big Books 76</title>
+	<meta name="description" content="Independent writing group that publishes historical books for children." />
 </svelte:head>
 
 <PageHeading size="lg" />

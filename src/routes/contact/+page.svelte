@@ -24,6 +24,7 @@
 
 <svelte:head>
 	<title>Contact | Dream Big Books 76</title>
+	<meta name="description" content="Contact page & from for Dream Big Books 76" />
 </svelte:head>
 
 <PageHeading size="sm" />
