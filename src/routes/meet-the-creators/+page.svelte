@@ -19,7 +19,11 @@
 				<img src={biography.image_url} alt={biography.name}>
 				<h2>{biography.name}</h2>
 				<p class="job">{biography.job}</p>
-				<p>{biography.biography}</p>
+				{@html biography.biography
+					.split("\n")
+					.map(x => `<p>${x}</p>`)
+					.join("\n")
+				}
 			</div>
 		{/each}
 	</div>
